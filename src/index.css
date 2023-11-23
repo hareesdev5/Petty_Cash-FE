@@ -1,0 +1,71 @@
+body{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCcVfBJVlPcfxatXJ4BZoAYqzMrE2wC0sBdg&usqp=CAU');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#signIn{
+    height: 100vh;
+    align-items: center;
+}
+
+.redbtn{
+    background-color: red;
+}
+
+.greenbtn{
+    background-color: green;
+}
+button:hover{
+    background-color: black;
+}
+label{
+    color: white;
+}
+.nav-link{
+    color:black !important;
+}
+.nav-set{
+    margin-left: 90px;
+    margin-top: 300px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media (max-width: 780px) {
+    body{
+        max-width: 780px;
+        /* margin-left: 50px; */
+        margin: auto;
+    }
+    #signIn{
+        margin-left: 70px;
+    }
+}
+
+@media(max-width: 540px){
+    body{
+        margin: auto;
+        max-width: 540px;
+    }
+    .S-btn{
+        max-width: 250px;
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 400px){
+    body{
+        margin: auto;
+        max-width: 400px;
+    }
+    .S-btn{
+        margin-left: -20px;
+        max-width: 200px;
+    }
+}
